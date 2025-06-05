@@ -7,22 +7,12 @@ using System.Threading.Tasks;
 
 namespace ExamenProgra4_P2
 {
-    class Chistes : ContentPage
-    {
-
-
-        public Chistes()
+         public chistes()
         {
             InitializeComponent();
             Title = "Chistes";
 
         }
-
-        private void InitializeComponent()
-        {
-            throw new NotImplementedException();
-        }
-
         private async void CargarChistes()
         {
             try
@@ -37,12 +27,9 @@ namespace ExamenProgra4_P2
             }
 
         }
-        private void ChistesLabel_Clicked(object sender, EventArgs e)
-        {
-            CargarChistes();
-        }
+    private void ChistesLabel_Clicked(object sender, EventArgs e) => CargarChistes();
 
-        public class ChistesLabel
+    public class ChistesLabel
         {
             public static string Text { get; internal set; }
             public string setup { get; internal set; }
