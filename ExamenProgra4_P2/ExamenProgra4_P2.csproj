@@ -74,4 +74,10 @@
 	  <None Include="C:\Users\laboratorio\source\repos\ExamenProgra4_P2\ExamenProgra4_P2\.editorconfig" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <MauiXaml Update="ChistePage1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	</ItemGroup>
+
 </Project>
