@@ -62,4 +62,16 @@
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.1" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <EditorConfigFiles Remove="C:\Users\laboratorio\source\repos\ExamenProgra4_P2\ExamenProgra4_P2\.editorconfig" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Include="C:\Users\laboratorio\Desktop\MainPage.xaml" Link="MainPage.xaml" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Include="C:\Users\laboratorio\source\repos\ExamenProgra4_P2\ExamenProgra4_P2\.editorconfig" />
+	</ItemGroup>
+
 </Project>
